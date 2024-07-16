@@ -1,27 +1,26 @@
-h3 {
-  height: 400px;
-  background-color: #f4a04b;
-  color: #fff;
-  padding-top: 10px;
+header, nav, main, footer{
+    padding-top: 10px;
+}
+header {
+    height: 100px;
+    background-color: #C04E3F;
+    color: #fff;
 }
 
-h1 {
-  height: 100px;
-  background-color: #c04e3f;
-  color: #fff;
-  padding-top: 10px;
+nav {
+    height: 80px;
+    background-color: #5C85D6;
+    color: #fff;
 }
 
-h3 {
-  height: 60px;
-  background-color: #4bae94;
-  color: #fff;
-  padding-top: 10px;
+main {
+    height: 400px;
+    background-color: #F4A04B;
+    color: #fff;
 }
 
-h2 {
-  height: 80px;
-  background-color: #5c85d6;
-  color: #fff;
-  padding-top: 10px;
+footer {
+    height: 60px;
+    background-color: #4BAE94;
+    color: #fff;
 }
