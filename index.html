@@ -2,26 +2,33 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>Layout Practice</title>
+    <title>Grid Layout Practice</title>
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
     <header>
       <h1>ヘッダー</h1>
     </header>
-    <nav>
-      <h2>ナビゲーション</h2>
-    </nav>
     <main>
-      <aside>
-        <h2>Sidebar</h2>
+      <div class="wrapper">
+        <section>
+          <h1>メインセクション</h1>
+        </section>
+        <footer>
+          <div class="footer-section">
+            <h1>フッターセクション1</h1>
+          </div>
+          <div class="footer-section">
+            <h1>フッターセクション2</h1>
+          </div>
+          <div class="footer-section">
+            <h1>フッターセクション3</h1>
+          </div>
+        </footer>
+      </div>
+      <aside class="right-sidebar">
+        <h1>右サイドバー</h1>
       </aside>
-      <section>
-        <h2>Main Section</h2>
-      </section>
     </main>
-    <footer>
-      <h2>フッター</h2>
-    </footer>
   </body>
 </html>
