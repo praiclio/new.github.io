@@ -17,11 +17,11 @@ main {
   display:flex;  
   color: #fff;
 }  
-main mainsection {
+main section {
   background-color: #FFDA63;
   width: 70%;
 }
-main sidebar {
+aside {
   background-color: #EF598D;
   width: 30%;
 }
