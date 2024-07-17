@@ -1,22 +1,29 @@
 header {
   height: 100px;
-  background-color: #c04e3f;
+  background-color: #A1B3D1;
   color: #fff;
   padding-top: 10px;
 }
 
 nav {
-  height: 80px;
-  background-color: #5c85d6;
+  height: 100px;
+  background-color: #61D3FC;
   color: #fff;
   padding-top: 10px;
 }
 
 main {
-  height: 400px;
-  background-color: #f4a04b;
+  height: 600px;
+  display:flex;  
   color: #fff;
-  padding-top: 10px;
+}  
+main section {
+  background-color: #FFDA63;
+  width: 70%;
+}
+main sidebar {
+  background-color: #EF598D;
+  width: 30%;
 }
 
 footer {
