@@ -17,7 +17,7 @@ main {
   display:flex;  
   color: #fff;
 }  
-main section {
+main mainsection {
   background-color: #FFDA63;
   width: 70%;
 }
