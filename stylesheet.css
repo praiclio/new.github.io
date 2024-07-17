@@ -16,6 +16,7 @@ main {
   height: 600px;
   display:flex;  
   color: #fff;
+  justify-content: space-around;
 }  
 main section {
   background-color: #FFDA63;
